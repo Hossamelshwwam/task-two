@@ -1,4 +1,5 @@
 const Home = () => {
+  console.log("Homelarge");
   return (
     <div className="home">
       <div className="titles">

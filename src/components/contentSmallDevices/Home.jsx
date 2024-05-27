@@ -1,4 +1,5 @@
 const Home = () => {
+  console.log("Homesmall");
   return (
     <div className="home-mobile">
       <div className="titles">
