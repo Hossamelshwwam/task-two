@@ -2,12 +2,13 @@
 import React from "react";
 import Home from "./Home.jsx";
 import Pricing from "./Pricing.jsx";
+import Features from "./Features.jsx";
 
 const ContentLargeDevice = () => {
-  console.log("ContentLargeDevice");
   return (
     <div className="content">
       <Home />
+      <Features/>
       <Pricing />
     </div>
   );

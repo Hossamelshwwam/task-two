@@ -1,8 +1,9 @@
 /* eslint-disable react-refresh/only-export-components */
 import React from "react";
-import Features from "./Features";
 import Home from "./Home";
-import Pricing from "./Pricing";
+// import Pricing from "./Pricing";
+import Features from "../contentLargeDevices/Features";
+import Pricing from "../contentLargeDevices/Pricing";
 
 const ContentSmallDevices = () => {
   console.log("ContentSmallDevices");

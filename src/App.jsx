@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar/Navbar";
 import ContentLargeDevice from "./components/contentLargeDevices/ContentLargeDevice";
 import ContentSmallDevices from "./components/contentSmallDevices/ContentSmallDevices";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -17,6 +18,7 @@ function App() {
     <>
       <Navbar width={width} />
       {width > 556 ? <ContentLargeDevice /> : <ContentSmallDevices />}
+      <ScrollToTop />
     </>
   );
 }
